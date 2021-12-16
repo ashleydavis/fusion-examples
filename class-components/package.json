@@ -1,0 +1,30 @@
+{
+  "name": "react-parcel-typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "s": "npm start",
+    "build": "parcel build index.html --out-dir=dist",
+    "b": "npm run build",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "ashley@codecapers.com.au",
+  "license": "MIT",
+  "dependencies": {
+    "@codecapers/fusion": "^1.0.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "live-server": "^1.2.1",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.5.2"
+  }
+}
